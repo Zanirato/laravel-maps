@@ -67,7 +67,7 @@ Caso erre alguma informação, você pode alterar ela e salvar no banco de dados
 # Aplicação
 
 
-## 🛠️ Instalação
+## Instalação
 
 ```
 # Criar projeto Laravel
