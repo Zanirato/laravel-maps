@@ -64,4 +64,59 @@ Caso erre alguma informação, você pode alterar ela e salvar no banco de dados
 
 <img width="1894" height="878" alt="Captura de tela 2025-08-26 131522" src="https://github.com/user-attachments/assets/f952f1da-68d3-4d3c-ab5b-234815ab0013" />
 
+# Aplicação
+
+
+## 🛠️ Instalação
+
+```
+# Criar projeto Laravel
+composer create-project laravel/laravel .
+
+# Copiar arquivo de configuração e gerar chave
+copy .env.example .env
+php artisan key:generate
+
+```
+## Verificar Instalação
+
+```
+php artisan --version
+dir
+```
+
+## Banco de dados
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=mapslaravel
+DB_USERNAME=root
+DB_PASSWORD=senha
+```
+
+## Teste conexão:
+
+```
+php artisan tinker
+DB::connection()->getPdo();
+```
+
+
+## Criação BD
+
+```php artisan migrate```
+
+## .env
+
+```
+APP_ENV=production
+APP_DEBUG=false
+APP_URL=https://seudominio.com
+DB_USERNAME=usuario
+DB_PASSWORD=senha
+```
+
+
 
