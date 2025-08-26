@@ -118,5 +118,7 @@ DB_USERNAME=usuario
 DB_PASSWORD=senha
 ```
 
+## Iniciar o projeto com laravel
 
+```PHP artisan serve```
 
